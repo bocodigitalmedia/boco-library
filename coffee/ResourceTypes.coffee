@@ -1,0 +1,2 @@
+ResourceTypes = exports =
+  LibraryItem: "LibraryItem"
