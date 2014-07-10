@@ -17,7 +17,7 @@ module.exports = class CommandService
 
     @pusher.push command, (error) ->
       return callback error if error?
-      callback null, command
+      callback undefined, command
 
   addItem: (params = {}, callback) ->
     @execute @factory.addItem(), params, callback

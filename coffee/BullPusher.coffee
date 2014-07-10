@@ -6,10 +6,15 @@ module.exports = class BullPusher extends AbstractPusher
     @queue = props.queue
 
   push: (command, callback) ->
-    onSuccess = (result) -> callback()
-    onFailure = (error) -> callback error
 
-    @queue.add(command).
-      then(onSuccess).
-      catch(onFailure).
-      done()
+    onSuccess = (result) ->
+      console.log "queue push success:", result
+      callback()
+      return result
+
+    console.log "Command", command
+    @queue.add(command).then(onSuccess).catch (error) ->
+      console.log error
+      throw error
+
+    return undefined
