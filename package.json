@@ -1,0 +1,15 @@
+{
+  "name": "boco-library",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "~1.4.1",
+    "bull": "~0.1.6"
+  }
+}
