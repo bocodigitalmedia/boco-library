@@ -10,6 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "uuid": "~1.4.1",
-    "bull": "~0.1.6"
+    "bull": "~0.1.6",
+    "express": "~4.5.1",
+    "body-parser": "~1.4.3"
   }
 }
