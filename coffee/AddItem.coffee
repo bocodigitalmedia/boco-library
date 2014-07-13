@@ -1,21 +1,19 @@
-Command = require './Command'
+BocoCommand = require 'boco-command'
 
-class AddItem extends Command
-  setParameters: (params) ->
-    @parameters = new AddItem.Parameters params
+class AddItem extends BocoCommand.Command
 
-class AddItem.Parameters extends Command.Parameters
+  setParameters: (params = {}) ->
+    @parameters =
+      url: params.url
+      mimeType: params.mimeType
+      name: params.name
 
-  constructor: (props = {}) ->
-    @url = props.url
-    @mimeType = props.mimeType
-    @name = props.name
-
-  validate: ->
-    v = validation = super
-    v.addError 'url', 'must be present' unless @url?
-    v.addError 'mimeType', 'must be present' unless @mimeType?
-    v.addError 'name', 'must be present' unless @name?
+  validateParameters: ->
+    v = validation = super()
+    p = @parameters
+    v.addError 'url', 'must be present' unless p.url?
+    v.addError 'mimeType', 'must be present' unless p.mimeType?
+    v.addError 'name', 'must be present' unless p.name?
     return validation
 
 module.exports = AddItem
