@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "AbstractPusher.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee/AbstractPusher.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,KAAA,mBAAA;;CAAA,CAAA,CAAY,IAAA,EAAZ,GAAY;;CAAZ,CAEA,CAAuB,GAAjB,CAAN;CACE;;CAAA,CAAgB,CAAV,CAAN,GAAM,CAAA,CAAC;CAAsB,GAAU,KAAS,GAAT,EAAA;CAAvC,IAAM;;CAAN;;CAHF;CAAA"
+}

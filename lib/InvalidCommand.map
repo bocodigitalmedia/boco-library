@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "InvalidCommand.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee/InvalidCommand.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,KAAA,yBAAA;KAAA;oSAAA;;CAAA,CAAA,CAAY,IAAA,EAAZ,GAAY;;CAAZ,CAEA,CAAuB,GAAjB,CAAN;CACE;;;;;CAAA;;CAAA,EAAY,EAAA,IAAC,CAAb;;GAAqB,KAAR;QACX;CAAC,EAAU,CAAV,GAAD,MAAA;CAAW,CAAY,GAAK,GAAjB,EAAA;CADD;CAAZ,IAAY;;CAAZ,EAGa,MAAA,EAAb;CACE,GAAqC,EAArC,cAAA;CAAA,EAAW,CAAV,GAAD,CAAA,UAAA;QAAA;CADW,YAEX,iCAAA;CALF,IAGa;;CAHb;;CAD4C,QAAS;CAFvD"
+}

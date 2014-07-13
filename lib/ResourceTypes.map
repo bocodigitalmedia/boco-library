@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "ResourceTypes.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee/ResourceTypes.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,KAAA,gBAAA;;CAAA,CAAA,CAAgB,IAAA,MAAhB;CACE,CAAa,EAAb,OAAA,EAAA;CADF,GAAA;CAAA"
+}

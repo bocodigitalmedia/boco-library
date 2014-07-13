@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "ItemAdded.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee/ItemAdded.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,KAAA,GAAA;;CAAA,CAAA,CAAuB,GAAjB,CAAN;CACe,EAAA,CAAA,CAAA,cAAC;;GAAQ,KAAR;QACZ;CAAA,EAAA,CAAC,CAAW,CAAZ;CAAA,EACY,CAAX,CAAgB,CAAjB,EAAA;CADA,EAEQ,CAAP,CAAY,CAAb;CAHF,IAAa;;CAAb;;CADF;CAAA"
+}
