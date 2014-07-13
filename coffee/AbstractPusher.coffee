@@ -1,4 +1,4 @@
-NotImplemented = require './NotImplemented'
+BocoError = require 'boco-error'
 
 module.exports = class AbstractPusher
-  push: (command, callback) -> throw new NotImplemented()
+  push: (command, callback) -> throw new BocoError.NotImplemented()

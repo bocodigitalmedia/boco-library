@@ -1,19 +1,29 @@
 {
+  "private": true,
   "name": "boco-library",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cake test"
+    "test": "./node_modules/coffee-script/bin/coffee -l README.md",
+    "compile": "./node_modules/coffee-script/bin/coffee -c -m -o lib/ coffee/"
   },
   "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
   "license": "MIT",
+  "repository": {
+    "type": "github",
+    "url": "git@github.com/bocodigitalmedia/boco-library"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
   "dependencies": {
-    "uuid": "~1.4.1",
     "bull": "~0.1.6",
     "express": "~4.5.1",
     "body-parser": "~1.4.3",
-    "boco-sourced": "0.0.5",
-    "boco-sourced-mongodb": "0.0.2"
+    "boco-sourced": "bocodigitalmedia/boco-sourced",
+    "boco-sourced-mongodb": "bocodigitalmedia/boco-sourced-mongodb",
+    "boco-command": "bocodigitalmedia/boco-command",
+    "boco-error": "bocodigitalmedia/boco-error"
   }
 }
