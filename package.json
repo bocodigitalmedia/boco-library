@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "boco-library",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Library module",
+  "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/coffee-script/bin/coffee -l README.md",
     "compile": "./node_modules/coffee-script/bin/coffee -c -m -o lib/ coffee/"
